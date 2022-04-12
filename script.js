@@ -51,7 +51,11 @@ function checkInputs(){
     })
 
     if(formIsValid){
-        console.log('O formulário está 100% válido')
+        swal({
+            icon: "success",
+            title: "Cadastro realizado!",
+            text: "Parabéns, o seu cadastro realizado com sucesso!",
+          });
     }
 }
 
