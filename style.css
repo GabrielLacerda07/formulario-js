@@ -72,7 +72,7 @@ body{
 .form-control.error input{
     border-color: #e74c3c;
 }
-.form-control.success i.fa-check-circlefa-exclamation-circle{
+.form-control.success i.fa-check-circle{
     color: #2ecc71;
     visibility: visible;
 }

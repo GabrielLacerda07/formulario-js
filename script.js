@@ -70,6 +70,10 @@ function setErrorFor(input, message){
 
 function setSuccessFor(input, message){
     const formControl = input.parentElement
+    const small = formControl.querySelector('small')
+    if(small != ''){
+        small.innerText = ''
+    }
 
     //Adicionar a classe de sucesso
     formControl.className = 'form-control success'
